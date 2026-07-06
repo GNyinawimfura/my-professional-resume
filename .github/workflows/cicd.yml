@@ -15,7 +15,7 @@ jobs:
             - name: Docker login
               uses: docker/login-action@v3
               with:
-                username: gninawimfura
+                username: gnyinawimfura
                 password: ${{ secrets.DOCKER_PASS }}
             - name: Push image
               run:
