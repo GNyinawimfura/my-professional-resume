@@ -19,7 +19,7 @@ jobs:
                password: ${{ secrets.DOCKER_PASS }}
            - name: Push image
              run:
-              docker push gnyinawimfura/cicd-portfolio
+               docker push gnyinawimfura/cicd-portfolio
 
                         
 
